@@ -8,12 +8,13 @@
     "@react-native-picker/picker": "^2.4.8",
     "axios": "^1.3.4",
     "expo": "~48.0.6",
+    "expo-local-authentication": "~13.2.1",
     "expo-status-bar": "~1.4.4",
     "md5": "^2.3.0",
     "react": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.5",
-    "react-native": "0.71.3",
-    "expo-local-authentication": "~13.2.1"
+    "react-native": "0.71.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
@@ -40,5 +41,6 @@
   "bugs": {
     "url": "https://github.com/Y3KC3/react-native-payu-expo/issues"
   },
-  "homepage": "https://github.com/Y3KC3/react-native-payu-expo#readme"
+  "homepage": "https://github.com/Y3KC3/react-native-payu-expo#readme",
+  "private": false
 }
