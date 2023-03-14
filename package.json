@@ -1,21 +1,35 @@
 {
   "name": "react-native-payu-expo",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
+  "description": "This is a module for react-native using expo, the module will take care of handling payments for you in a fast and easy way, you just have to pass the destination data of the funds, and the module will take care of displaying the form in a beautiful, visually pleasing, and highly customizable way to your liking.",
+  "main": "index.js",
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-picker/picker": "^2.4.8",
+    "axios": "^1.3.4",
     "expo": "~48.0.6",
     "expo-status-bar": "~1.4.4",
+    "md5": "^2.3.0",
     "react": "18.2.0",
-    "react-native": "0.71.3"
+    "react-hook-form": "^7.43.5",
+    "react-native": "0.71.3",
+    "expo-local-authentication": "~13.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y3KC3/react-native-payu-expo.git"
+  },
+  "keywords": ["react-native-payu","payu","expo","react-native-expo","react-native-payu-expo","expo-payu","payu-expo", "react-native"],
+  "author": "Melvin Colmenares <melvincolmenares.m@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y3KC3/react-native-payu-expo/issues"
+  },
+  "homepage": "https://github.com/Y3KC3/react-native-payu-expo#readme"
 }
