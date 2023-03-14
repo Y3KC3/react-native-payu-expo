@@ -1,6 +1,6 @@
 {
   "name": "react-native-payu-expo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a module for react-native using expo, the module will take care of handling payments for you in a fast and easy way, you just have to pass the destination data of the funds, and the module will take care of displaying the form in a beautiful, visually pleasing, and highly customizable way to your liking.",
   "main": "index.js",
   "dependencies": {
@@ -25,7 +25,16 @@
     "type": "git",
     "url": "git+https://github.com/Y3KC3/react-native-payu-expo.git"
   },
-  "keywords": ["react-native-payu","payu","expo","react-native-expo","react-native-payu-expo","expo-payu","payu-expo", "react-native"],
+  "keywords": [
+    "react-native-payu",
+    "payu",
+    "expo",
+    "react-native-expo",
+    "react-native-payu-expo",
+    "expo-payu",
+    "payu-expo",
+    "react-native"
+  ],
   "author": "Melvin Colmenares <melvincolmenares.m@gmail.com>",
   "license": "ISC",
   "bugs": {
